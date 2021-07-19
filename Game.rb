@@ -6,6 +6,7 @@ class Game
   Wrong = "Seriously? No!"
   Correct = "YES! You are correct."
 
+  # Initialize all variables for the start of the game
   def initialize
     @current_player = 1
     @player_1 = Player.new
